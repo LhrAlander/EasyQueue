@@ -1,0 +1,27 @@
+{
+  "name": "buffSpider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mysql": "github:mysqljs/mysql",
+    "request": "^2.88.0",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.2.0",
+    "ssdb-node": "^5.1.0",
+    "stomp-client": "^0.9.0",
+    "stompit": "^0.26.0"
+  },
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
+}
